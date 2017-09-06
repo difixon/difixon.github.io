@@ -972,7 +972,7 @@ footer {
 	font-size: 23px;
 }
 .row .six {
-	width: auto;
+	width: 100%;
 }
 .hero-img {
 	display: none;
