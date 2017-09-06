@@ -6,6 +6,7 @@ Donate to remove backlink form the template.
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 @import url('https://fonts.googleapis.com/css?family=Exo+2:900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 * {
 	margin: 0;
 	padding: 0;
@@ -39,7 +40,10 @@ p {
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6, #home .heading strong {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Fjalla One','Open Sans Condensed', sans-serif;
+}
+.rus h2{
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .fitImage {
 	max-width: 100%;
@@ -335,10 +339,10 @@ h2, .h2 {
 	text-align: center;
 	margin-top: 30px;
 }
-.styled {
+.styled,.styled_rus {
 	margin-bottom: 60px;
 }
-.styled div {
+.styled div,.styled_rus div {
 	display: inline-block;
 	margin-left: 10px;
 	font-size: 70px;
@@ -363,14 +367,14 @@ h2, .h2 {
 	opacity: 0.8;
 }
 /* IE7 inline-block hack */
-*+html .styled div {
+*+html .styled div,*+html .styled_rus div {
 	display: inline;
 	zoom: 1;
 }
-.styled div:first-child {
+.styled div:first-child,.styled_rus div:first-child {
 	margin-left: 0;
 }
-.styled div span {
+.styled div span, .styled_rus div span {
 	display: block;
 	font-size: 22px;
 	margin-top: -10px;
@@ -956,12 +960,12 @@ footer {
 #home .heading strong {
 	font-size: 19px;
 }
-.styled div {
+.styled div,.styled_rus div {
 	display: inline-block;
 	margin-left: 10px;
 	font-size: 50px;
 }
-.styled div span {
+.styled div span,.styled_rus div span {
 	font-size: 23px;
 }
 .row .six {
@@ -995,12 +999,12 @@ footer {
 #home .heading strong {
 	font-size: 14px;
 }
-.styled div {
+.styled div,.styled_rus div {
 	display: inline-block;
 	margin-left: 10px;
 	font-size: 28px;
 }
-.styled div span {
+.styled div span,.styled_rus div span {
 	font-size: 14px;
 }
 .navbar {
