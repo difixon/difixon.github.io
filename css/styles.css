@@ -783,6 +783,9 @@ padding-bottom:10px;
 .row .six {
 	width: 50%;
 }
+.row .six.feature-media {
+	text-align:center;
+}
 /* Services
     -------------------------------------------------*/
 .grid .text-content {
