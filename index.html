@@ -1,135 +1,1861 @@
 <!DOCTYPE html>
-<html lang="en-gb"><!--<![endif]--><head>
+<html lang="en-gb">
+<!--<![endif]-->
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--[if lt IE 9]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>Alex Batarin - Frontend Developer</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<title>Александр Батарин - Frontend разработчик</title>
 <meta name="description" content="">
-<meta name="author" content="WebThemez">
+<meta name="author" content="Difix">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
 <!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
+ <script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js">
+</script>
+ <![endif]-->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link href="css/animate.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" href="css/styles.css">
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="The7 Personal Creative Website &raquo; Feed" href="http://the7.io/personal-creative/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The7 Personal Creative Website &raquo; Comments Feed" href="http://the7.io/personal-creative/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The7 Personal Creative Website &raquo; Homepage Comments Feed" href="http://the7.io/personal-creative/homepage/feed/" />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+ #rs-demo-id {}
+</style>
+<link rel='stylesheet' id='js_composer_front-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/js_composer/js_composer_front_custom.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css' href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7COpen+Sans%3A400%2C600%2C700&#038;ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/css/main.min.css?ver=5.6.0.1' type='text/css' media='all' />
+<style id='dt-main-inline-css' type='text/css'>
+ body #load {
+ display: block;
+ height: 100%;
+ overflow: hidden;
+ position: fixed;
+ width: 100%;
+ z-index: 9901;
+ opacity: 1;
+ visibility: visible;
+ -webkit-transition: all .35s ease-out;
+ transition: all .35s ease-out;
+ }
+ body #load.loader-removed {
+ opacity: 0;
+ visibility: hidden;
+ }
+ .load-wrap {
+ width: 100%;
+ height: 100%;
+ background-position: center center;
+ background-repeat: no-repeat;
+ text-align: center;
+ }
+ .load-wrap > svg {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ }
+ #load {
+ background-color: #ffffff;
+ }
+ .uil-default rect:not(.bk) {
+ fill: #c4c4c4;
+ }
+ .uil-ring > path {
+ fill: #c4c4c4;
+ }
+ .ring-loader .circle {
+ fill: #c4c4c4;
+ }
+ .ring-loader .moving-circle {
+ fill: #c4c4c4;
+ }
+ .uil-hourglass .glass {
+ stroke: #c4c4c4;
+ }
+ .uil-hourglass .sand {
+ fill: #c4c4c4;
+ }
+ .spinner-loader .load-wrap {
+ background-image: url("data:image/svg+xml,%3Csvg width='75px' height='75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-default'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(0 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(30 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.08333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(60 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.16666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(90 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.25s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(120 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.3333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(150 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.4166666666666667s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(180 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(210 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5833333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(240 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.6666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(270 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.75s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(300 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.8333333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23c4c4c4' transform='rotate(330 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.9166666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+ }
+ .ring-loader .load-wrap {
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='%23c4c4c4'%3E %3Cpath opacity='.25' d='M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4'/%3E %3Cpath d='M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z'%3E %3CanimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='0.8s' repeatCount='indefinite' /%3E %3C/path%3E %3C/svg%3E");
+ }
+ .hourglass-loader .load-wrap {
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='%23c4c4c4'%3E %3Cpath transform='translate(2)' d='M0 12 V20 H4 V12z'%3E %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E %3C/path%3E %3Cpath transform='translate(8)' d='M0 12 V20 H4 V12z'%3E %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.2' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E %3C/path%3E %3Cpath transform='translate(14)' d='M0 12 V20 H4 V12z'%3E %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.4' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E %3C/path%3E %3Cpath transform='translate(20)' d='M0 12 V20 H4 V12z'%3E %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.6' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E %3C/path%3E %3Cpath transform='translate(26)' d='M0 12 V20 H4 V12z'%3E %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.8' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E %3C/path%3E %3C/svg%3E");
+ }
+
+</style>
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='dt-old-ie-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/css/old-ie.min.css?ver=5.6.0.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dt-awsome-fonts-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/fonts/FontAwesome/css/font-awesome.min.css?ver=5.6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-fontello-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/fonts/fontello/css/fontello.min.css?ver=5.6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-arrow-icons-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/themes/dt-the7/fonts/icomoon-arrows-the7/style.min.css?ver=5.6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='the7pt-static-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/themes/dt-the7/css/post-type.css?ver=5.6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-old-ie-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/the7-css/custom-old-ie.css?ver=b367d2fea2d6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/the7-css/custom.css?ver=b367d2fea2d6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/the7-css/media.css?ver=b367d2fea2d6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-legacy-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/the7-css/legacy.css?ver=b367d2fea2d6' type='text/css' media='all' />
+<link rel='stylesheet' id='the7pt.less-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/the7-css/post-type-dynamic.css?ver=b367d2fea2d6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-demostand-plugin-styles-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/dt-demostand/assets/public.css?ver=2.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/style.css?ver=5.6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-icomoon-numbers-32x32-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/smile_fonts/icomoon-numbers-32x32/icomoon-numbers-32x32.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-icomoon-font-awesome-14x14-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/smile_fonts/icomoon-font-awesome-14x14/icomoon-font-awesome-14x14.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-min-css' href='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.16.18' type='text/css' media='all' />
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-includes/js/jquery/jquery.js?ver=1.12.4'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6'>
+</script>
+<script type="text/javascript" src="http://the7.io/personal-creative/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js">
+</script>
+<script type="text/javascript" src="http://the7.io/personal-creative/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js">
+</script>
+<script type="text/javascript" src="http://the7.io/personal-creative/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js">
+</script>
+<script type='text/javascript'>
+ /*<![CDATA[ */
+ var dtLocal = {"themeUrl":"http:\/\/the7.io\/personal-creative\/wp-content\/themes\/dt-the7","passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading...","loadMore":"Load more"},"postID":"2","ajaxurl":"http:\/\/the7.io\/personal-creative\/wp-admin\/admin-ajax.php","contactNonce":"0c4e8f4e89","contactMessages":{"required":"One or more fields have an error. Please check and try again."},"ajaxNonce":"9e8f40b003","pageData":{"type":"page","template":"microsite","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"solid","color":"#3a71ec"},"floatingHeader":{"showAfter":450,"showMenu":true,"height":60,"logo":{"showLogo":true,"html":"<img class=\" preload-me\" src=\"http:\/\/the7.io\/personal-creative\/wp-content\/uploads\/sites\/37\/2017\/05\/g.png\" srcset=\"http:\/\/the7.io\/personal-creative\/wp-content\/uploads\/sites\/37\/2017\/05\/g.png 36w, http:\/\/the7.io\/personal-creative\/wp-content\/uploads\/sites\/37\/2017\/05\/g-hd.png 72w\" width=\"36\" height=\"36\" sizes=\"36px\" alt=\"The7 Personal Creative Website\" \/>","url":"#!\/up"}},"mobileHeader":{"firstSwitchPoint":850,"secondSwitchPoint":0},"content":{"textColor":"#787d85","headerColor":"#1d2028"},"stripes":{"stripe1":{"textColor":"#787d85","headerColor":"#3b3f4a"},"stripe2":{"textColor":"#8b9199","headerColor":"#ffffff"},"stripe3":{"textColor":"#ffffff","headerColor":"#ffffff"}}},"VCMobileScreenWidth":"768"};
+ var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Tweet","pinterest":"Pin it","linkedin":"Share on Linkedin","whatsapp":"Share on Whatsapp","google":"Share on Google Plus","download":"Download image"},"overlayOpacity":"85"};
+ /* ]]> */
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=5.6.0.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.16.18'>
+</script>
+<link rel='https://api.w.org/' href='http://the7.io/personal-creative/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://the7.io/personal-creative/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel="canonical" href="http://the7.io/personal-creative/" />
+<link rel='shortlink' href='http://the7.io/personal-creative/' />
+<link rel="alternate" type="application/json+oembed" href="http://the7.io/personal-creative/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthe7.io%2Fpersonal-creative%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://the7.io/personal-creative/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthe7.io%2Fpersonal-creative%2F&#038;format=xml" />
+<meta property="og:site_name" content="The7 Personal Creative Website" />
+<meta property="og:title" content="Homepage" />
+<meta property="og:url" content="http://the7.io/personal-creative/" />
+<meta property="og:type" content="website" />
+ <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+ <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen">
+<![endif]-->
+<meta name="generator" content="Powered by Slider Revolution 5.4.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">
+ document.addEventListener("DOMContentLoaded", function(event) {
+ var $load = document.getElementById("load");
+var removeLoading = setTimeout(function() {
+ $load.className += " loader-removed";
+ }, 500);
+ });
+</script>
+<script type="text/javascript">function setREVStartSize(e){
+ try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+ }catch(d){console.log("Failure at Presize of Slider:"+d)}
+ };</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1495554253437{padding-top: 150px !important;padding-bottom: 250px !important;}.vc_custom_1493725940488{padding-bottom: 50px !important;}.vc_custom_1493804588075{padding-top: 100px !important;}.vc_custom_1493808945767{padding-right: 35px !important;padding-bottom: 90px !important;padding-left: 35px !important;background-color: #f8f8f9 !important;}.vc_custom_1495554266065{padding-top: 100px !important;padding-bottom: 50px !important;background-color: #181b22 !important;}.vc_custom_1493715216692{padding-top: 100px !important;padding-bottom: 100px !important;}.vc_custom_1493724640531{padding-top: 100px !important;padding-bottom: 50px !important;}.vc_custom_1495554276908{padding-top: 100px !important;padding-bottom: 100px !important;background-color: #181b22 !important;}.vc_custom_1493718013755{padding-top: 100px !important;padding-bottom: 70px !important;}.vc_custom_1495554356661{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493714771624{padding-bottom: 50px !important;}.vc_custom_1493714765213{padding-bottom: 50px !important;}.vc_custom_1493808442827{margin-bottom: 0px !important;}.vc_custom_1483525515807{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1483525494667{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1483525617545{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1483525494667{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1483525547257{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1483525507436{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1482935292362{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806653114{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1493805424521{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806659108{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1482935311653{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806665685{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1482935209997{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806671573{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1482935304250{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806677241{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1482935274018{padding-top: 50px !important;padding-bottom: 20px !important;}.vc_custom_1493806684042{margin-bottom: 0px !important;padding-top: 10px !important;}.vc_custom_1478279490968{padding-bottom: 50px !important;}.vc_custom_1478279496028{padding-bottom: 50px !important;}.vc_custom_1478279506972{padding-bottom: 50px !important;}.vc_custom_1478279515020{padding-bottom: 50px !important;}.vc_custom_1478279520453{padding-bottom: 50px !important;}.vc_custom_1478279525924{padding-bottom: 50px !important;}.vc_custom_1493723314812{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493723325965{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493723385710{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493723304520{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493723265938{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493723257572{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1493807723955{padding-bottom: 20px !important;}.vc_custom_1493809034265{margin-bottom: 0px !important;}.vc_custom_1493807557937{padding-bottom: 50px !important;}.vc_custom_1493807588247{padding-bottom: 50px !important;}.vc_custom_1493807596419{padding-bottom: 50px !important;}.vc_custom_1493807601265{padding-bottom: 50px !important;}.vc_custom_1493807606046{padding-bottom: 50px !important;}.vc_custom_1493807612044{padding-bottom: 50px !important;}.vc_custom_1493807616654{padding-bottom: 50px !important;}.vc_custom_1493807622563{padding-bottom: 50px !important;}.vc_custom_1493807192983{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807216638{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807212892{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807173272{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807304406{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807294781{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807419932{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493807456272{padding-right: 20px !important;padding-left: 20px !important;}.vc_custom_1493724463942{padding-bottom: 50px !important;}.vc_custom_1493809185719{padding-bottom: 50px !important;}.vc_custom_1493809180673{padding-bottom: 50px !important;}.vc_custom_1493809193918{padding-bottom: 50px !important;}.vc_custom_1493807836818{padding-bottom: 30px !important;}.vc_custom_1493807842035{padding-bottom: 30px !important;}.vc_custom_1493807853247{padding-bottom: 30px !important;}.vc_custom_1493807847464{padding-bottom: 30px !important;}.vc_custom_1493717442720{padding-bottom: 20px !important;}.vc_custom_1493809067467{margin-bottom: 0px !important;}.vc_custom_1493717077317{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493717071033{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493717064526{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493717115224{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493717143050{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493717043669{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1482943658375{padding-bottom: 20px !important;}.vc_custom_1493718018569{padding-bottom: 30px !important;}.vc_custom_1493719057394{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493719090010{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493719150643{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1493719528442{margin-bottom: 30px !important;padding-bottom: 0px !important;}.vc_custom_1476289576226{padding-top: 50px !important;padding-bottom: 50px !important;}.vc_custom_1482916661181{padding-top: 50px !important;padding-bottom: 50px !important;}.vc_custom_1482916667587{padding-top: 50px !important;padding-bottom: 50px !important;}.vc_custom_1482916687440{padding-top: 50px !important;padding-bottom: 50px !important;}.vc_custom_1493721097003{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 20px !important;padding-left: 0px !important;}.vc_custom_1493721104513{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 20px !important;padding-left: 0px !important;}.vc_custom_1493721110933{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 20px !important;padding-left: 0px !important;}.vc_custom_1493721116197{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 20px !important;padding-left: 0px !important;}</style>
+<noscript>
+<style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+</noscript>
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-90553574-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
 </head>
+<body class="home page-template page-template-template-microsite page-template-template-microsite-php page page-id-2 one-page-row transparent disabled-hover-icons dt-responsive-on overlay-cursor-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color accent-bullets bold-icons phantom-slide phantom-line-decoration phantom-main-logo-on floating-mobile-menu-icon top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on popup-message-style wpb-js-composer js-comp-ver-5.3 vc_responsive">
+<!-- The7 5.6.0.1 -->
+<div id="load" class="spinner-loader">
+ <div class="load-wrap">
+</div>
+</div>
+<div id="page">
+ <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-<body>
-<nav id="mainNav">
-	<div class="language"><a href="/index_en.html">EN</a></div>
-  <div id="menuToggle"><i class="fa fa-bars"></i></div>
-  <ul class="menuLinks">
-    <li class="active" id="firstLink"><a href="#home" class="scroll-link">В начало</a></li>
-    <li><a href="#services" class="scroll-link">Услуги</a></li>
-    <li><a href="#aboutUs" class="scroll-link">Обо мне</a></li>
-    <li><a href="#contactUs" class="scroll-link">Связаться со мной</a></li>
-  </ul>
-</nav>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container">
-    <div class="container">
-      <div class="row">
-        <div class="logo"> <a href="#">DifixON</a> </div>
-      </div>
-      <div class="heading text-center">
-        <h2>Портфолио находится в процессе разработки</h2>
-        <strong>Я постараюсь найти время, чтобы закончить его за</strong> </div>
-      <div class="countdown styled_rus"><div><span>дней</span></div><div><span>часов</span></div><div><span>минут</span></div><div><span>секунд</span></div></div>
-    </div>
-  </div>
-</section>
-<section id="services" class="page-section colord">
-  <div class="container">
-    <div class="row">
-      <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-arrows-alt fa-2x circle"></i>
-        <h3>Responsive <span class="id-color">Design</span></h3>
-        <p>Имею много опыта в использовании bootstrap и сетки 960 .</p>
-      </div>
-      <!-- end: -->
+<div class="masthead inline-header justify full-width line-decoration dt-parent-menu-clickable" style="background-color: rgba(0,0,0,0);" role="banner">
 
-      <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-html5 fa-2x circle"></i>
-        <h3>HTML5/CSS3 <span class="id-color">Разработка</span></h3>
-        <p>Пишу чистый и валидный html+css код.</p>
-      </div>
-      <!-- end: -->
+ <header class="header-bar">
+<div class="branding">
+ <a href="#!/up">
+<img class=" preload-me" src="img/favicon-32x32.png" width="36" height="36" sizes="36px" alt="DifixOn logo" />
+</a>				</div>
+ <ul id="primary-menu" class="main-nav bg-outline-decoration hover-bg-decoration active-bg-decoration animate-click-decoration outside-item-custom-margin" role="menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137 first">
+<a href='#!/about' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">About me</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138">
+<a href='#!/portfolio' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">My works</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139">
+<a href='#!/expertise' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Expertise</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140">
+<a href='#!/clients' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Clients</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141">
+<a href='#!/testimonials' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Testimonials</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142">
+<a href='#!/process' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Process</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143">
+<a href='#!/contact' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Contact</span></span>
+</a>
+</li></ul>
+</header>
 
-      <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-code fa-2x circle"></i>
-        <h3>JavaScript <span class="id-color">jQuery</span></h3>
-        <p>Работаю с JS&jQuery. Пишу свой код и использую готовый, внося нужные конкретному проекту коррективы. Учу Angular.</p>
-      </div>
-      <!-- end: -->
+</div>
+<div class='dt-close-mobile-menu-icon'>
+<span></span>
+</div>
+<div class='dt-mobile-header'>
+ <ul id="mobile-menu" class="mobile-main-nav" role="menu">
+ <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137 first">
+<a href='#!/about' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">About me</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138">
+<a href='#!/portfolio' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">My works</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139">
+<a href='#!/expertise' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Expertise</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140">
+<a href='#!/clients' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Clients</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141">
+<a href='#!/testimonials' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Testimonials</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142">
+<a href='#!/process' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Process</span></span>
+</a>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143">
+<a href='#!/contact' data-level='1'>
+<span class="menu-item-text">
+<span class="menu-text">Contact</span></span>
+</a>
+</li> </ul>
+ <div class='mobile-mini-widgets-in-menu'>
+</div>
+</div>
 
-      <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-wordpress fa-2x circle"></i>
-        <h3>Wordpress <span class="id-color">Разработка</span></h3>
-        <p>Работаю с wordpress с 2014. Есть опыт работы с плагином WooCommerce.</p>
-      </div>
-      <!-- end:-->
-    </div>
-  </div>
-  <!--/.container-->
-</section>
-<section id="aboutUs" style="opacity: 0;">
-  <div class="container">
-    <div class="row feature design">
-      <div class="six columns right rus">
-        <h2>Александр Батарин, Front-end Разработчик</h2>
-         <p> Привет. Я опытный веб-разработчик, специализирующийся на front-end. </p>
-		 <p> Люблю быть частью интересных и красивых проектов.</p>
-		 <p> Развиваюсь в разработке интерфейсов, мобильных и веб приложений.</p>
-      </div>
-      <div class="six columns feature-media left"> <img class="img-circle" src="images/me.jpg" alt=""> </div>
-    </div>
-  </div>
-</section>
-<section id="contactUs" class="contact-parlex">
-  <div class="parlex-back" style="opacity: 0;">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center">
-          <!-- Heading -->
-          <h2>Контакты</h2>
-          <p>Если у вас возникли вопросы или хотите нанять меня на проект свяжитесь со мной,</p>
-		<p><big>используя одну из ссылок ниже</big></p>
-        </div>
-		    <div class="social text-center"> <a href="mailto:alex.batarin@gmail.com"><i class="fa fa-envelope"></i></a><a href="https://vk.com/alexbatarin"><i class="fa fa-vk"></i></a> <a href="https://facebook.com/a.batarin"><i class="fa fa-facebook"></i></a> <a href="https://github.com/difixon/"><i class="fa fa-github"></i></a> </div>
-      </div>
+ <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px; padding-bottom:0px;" >
 
-    </div>
-    <!--/.container-->
-  </div>
-</section>
-<!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2017 | All Rights Reserved</div>
-    </div>
-    <!-- / .row -->
-  </div>
-</section>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
-
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
-<script src="js/modernizr-latest.js"></script>
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/jquery.nav.js" type="text/javascript"></script>
-<script src="js/waypoints.js"></script>
-<script src="js/Backstretch.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
+ <div class="main-gradient">
+</div>
+ <div class="wf-wrap">
+ <div class="wf-container-main">
 
 
-</body></html>
+<div id="content" class="content" role="main">
+
+<div id="home" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1495554253437 vc_row-no-padding">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="wpb_revslider_element wpb_content_element">
+<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:rgba(255,255,255,0);padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.6 auto mode -->
+ <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6">
+<ul>	<!-- SLIDE -->
+ <li data-index="rs-1" data-transition="zoomin" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/" data-delay="7500" data-rotate="0" data-saveperformance="on" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+ <!-- MAIN IMAGE -->
+ <img src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/revslider/admin/assets/images/dummy.png" alt="" title="Homepage" data-lazyload="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/revslider/admin/assets/images/transparent.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+ <!-- LAYERS -->
+<!-- LAYER NR. 1 -->
+ <div class="tp-caption tp-resizeme"
+  id="slide-1-layer-12"
+  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+  data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-130','-130']"
+ data-width="1200"
+ data-height="none"
+ data-whitespace="nowrap"
+data-type="text"
+ data-responsive_offset="on"
+data-frames='[{"delay":1000,"split":"chars","splitdelay":0.07,"speed":400,"split_direction":"forward","frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Linear.easeNone"}]'
+ data-textAlign="['center','center','center','center']"
+ data-paddingtop="[0,0,0,0]"
+ data-paddingright="[0,0,0,0]"
+ data-paddingbottom="[0,0,0,0]"
+ data-paddingleft="[0,0,0,0]"
+style="z-index: 5; min-width: 1200px; max-width: 1200px; white-space: nowrap; font-size: 32px; line-height: 42px; font-weight: 700; color: #1d2028; letter-spacing: px;">Приветствую, Я Александр Батарин</div>
+<!-- LAYER NR. 2 -->
+ <h2 class="tp-caption tp-resizeme"
+  id="slide-1-layer-2"
+  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+  data-y="['middle','middle','middle','middle']" data-voffset="['50','50','70','70']"
+ data-fontsize="['60','60','48','48']"
+ data-lineheight="['74','74','60','60']"
+ data-width="['1050','1050','550','550']"
+ data-height="none"
+ data-whitespace="normal"
+data-type="text"
+ data-responsive_offset="on"
+data-frames='[{"delay":2400,"speed":1510,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":0,"frame":"999","to":"opacity:0;","ease":"Linear.easeNone"}]'
+ data-textAlign="['center','center','center','center']"
+ data-paddingtop="[0,0,0,0]"
+ data-paddingright="[0,0,0,0]"
+ data-paddingbottom="[0,0,0,0]"
+ data-paddingleft="[0,0,0,0]"
+style="z-index: 6; min-width: 1050px; max-width: 1050px; white-space: normal; font-size: 60px; line-height: 74px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: px;">Верстаю чистым и валидным кодом с 2012го года.</h2>
+<!-- LAYER NR. 3 -->
+ <div class="tp-caption tp-resizeme"
+  id="slide-1-layer-23"
+  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+  data-y="['middle','middle','middle','middle']" data-voffset="['-190','-190','-190','-190']"
+ data-width="none"
+ data-height="none"
+ data-whitespace="normal"
+data-type="image"
+ data-responsive_offset="on"
+data-frames='[{"delay":1000,"speed":600,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+ data-textAlign="['inherit','inherit','inherit','inherit']"
+ data-paddingtop="[0,0,0,0]"
+ data-paddingright="[0,0,0,0]"
+ data-paddingbottom="[0,0,0,0]"
+ data-paddingleft="[0,0,0,0]"
+style="z-index: 7;">
+<img src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/revslider/admin/assets/images/dummy.png" alt="" data-ww="['48px','48px','48px','48px']" data-hh="['48px','48px','48px','48px']" width="48" height="48" data-lazyload="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2017/05/l.png" data-no-retina></div>
+ </li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;">
+</div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+ if(htmlDiv) {
+ htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+ }else{
+ var htmlDiv = document.createElement("div");
+ htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+ document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+ }
+ </script>
+ <script type="text/javascript">
+ setREVStartSize({c: jQuery('#rev_slider_1_1'), responsiveLevels: [1240,1024,778,778], gridwidth: [1100,1100,600,600], gridheight: [500,500,600,600], sliderLayout: 'auto'});
+var revapi1,
+ tpj=jQuery;
+tpj(document).ready(function() {
+ if(tpj("#rev_slider_1_1").revolution == undefined){
+ revslider_showDoubleJqueryError("#rev_slider_1_1");
+ }else{
+ revapi1 = tpj("#rev_slider_1_1").show().revolution({
+ sliderType:"hero",
+ jsFileLocation:"//the7.io/personal-creative/wp-content/plugins/revslider/public/assets/js/",
+ sliderLayout:"auto",
+ dottedOverlay:"none",
+ delay:5000,
+ viewPort: {
+ enable:true,
+ outof:"wait",
+ visible_area:"65%",
+ presize:false
+ },
+ responsiveLevels:[1240,1024,778,778],
+ visibilityLevels:[1240,1024,778,778],
+ gridwidth:[1100,1100,600,600],
+ gridheight:[500,500,600,600],
+ lazyType:"smart",
+ shadow:0,
+ spinner:"off",
+ autoHeight:"off",
+ disableProgressBar:"on",
+ hideThumbsOnMobile:"off",
+ hideSliderAtLimit:0,
+ hideCaptionAtLimit:1001,
+ hideAllCaptionAtLilmit:0,
+ debugMode:false,
+ fallbacks: {
+ simplifyAll:"on",
+ disableFocusListener:false,
+ panZoomDisableOnMobile:"on",
+ }
+ });
+ }
+});	/*ready*/
+</script>
+ </div>
+<!-- END REVOLUTION SLIDER -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row-full-width vc_clearfix">
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_bg_img" data-ultimate-bg="url(http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif)" data-image-id="id^57|url^http://the7.io/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif|caption^null|alt^null|title^bg-creative-pattern|description^null" data-ultimate-bg-style="vcpb-vz-jquery" data-bg-img-repeat="repeat" data-bg-img-size="initial" data-bg-img-position="" data-parallx_sense="50" data-bg-override="ex-full" data-bg_img_attach="scroll" data-upb-overlay-color="rgba(58,113,236,0.97)" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="true" data-overlay-color="rgba(58,113,236,0.97)" data-overlay-pattern="" data-overlay-pattern-opacity="0.8" data-overlay-pattern-size="" data-overlay-pattern-attachment="scroll" data-seperator="true" data-seperator-type="xlarge_triangle_seperator" data-seperator-shape-size="40" data-seperator-svg-height="220" data-seperator-full-width="true" data-seperator-position="bottom_seperator" data-seperator-background-color="#fff" data-icon="" >
+</div>
+<div id="about" class="vc_row wpb_row vc_row-fluid vc_custom_1493725940488">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-504559e7677b56412" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-504559e7677b56412 uvc-1427 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-504559e7677b56412 h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(59,63,74,0.12);margin-bottom:-45px;">*ABOUT ME</h2>
+</div>
+</div>
+<div id="ultimate-heading-201059e7677b564f5" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-201059e7677b564f5 uvc-6193 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-201059e7677b564f5 h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:50px;">Who I am &amp; what I do</h2>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+<div class="wpb_column vc_column_container vc_col-sm-7 vc_col-lg-7 vc_col-md-7">
+<div class="vc_column-inner vc_custom_1493714771624">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-851259e7677b5696a" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-851259e7677b5696a uvc-756 accent-subtitle-color" data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-851259e7677b5696a h2' data-responsive-json-new='{"font-size":"desktop:28px;mobile_landscape:30px;","line-height":"desktop:38px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:5px;">Andrew Seven</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-851259e7677b5696a .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:bold;margin-bottom:20px;">UX &amp; WEB DESIGNER</div>
+</div>
+<div id="ultimate-heading-594259e7677b569fa" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-594259e7677b569fa uvc-2741 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-594259e7677b569fa .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:normal;margin-bottom:30px;">Phasellus dui enim, posuere ac porta non, convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet &#8211; felis venenatis, porttitor urna pulvinar, vestibulum ex.</p>
+<p>Posuere ac porta non, convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae tortor.</div>
+</div>
+<div class=" vc_custom_1493808442827 ubtn-ctn-left anchor-link">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-left ubtn-custom anchor-link" href="#!/contact">
+<button type="button" id="ubtn-5093" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-fade-bg none ubtn-left tooltip-59e7677b56a89" data-hover="#ffffff" data-border-color="#3a71ec" data-bg="" data-hover-bg="#3a71ec" data-border-hover="#3a71ec" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-5093' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":""}' style="font-weight:bold;width:px;min-height:46px;padding:5px 15px;border-radius:0px;border-width:3px;border-color:#3a71ec;border-style:solid;color: #3a71ec;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:#3a71ec"></span>
+<span class="ubtn-data ubtn-text " >START A PROJECT WITH ME</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-offset-0 vc_col-lg-5 vc_col-md-offset-0 vc_col-md-5 vc_col-sm-offset-0 vc_col-xs-offset-2 vc_col-xs-8">
+<div class="vc_column-inner vc_custom_1493714765213">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:800px;">
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap layzr-bg" style="border-radius:1000px;">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%20800&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-018-800x800.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-018-800x800.jpg 800w" width="800" height="800" data-dt-location="http://the7.io/personal-creative/homepage/testim-018/" style="border-radius:1000px;" alt="" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div id="portfolio" class="vc_row wpb_row vc_row-fluid vc_custom_1493804588075">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-279459e7677b5847a" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-279459e7677b5847a uvc-6395 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-279459e7677b5847a h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(59,63,74,0.12);margin-bottom:-45px;">*PORTFOLIO</h2>
+</div>
+</div>
+<div id="ultimate-heading-472059e7677b58502" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-472059e7677b58502 uvc-7738 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-472059e7677b58502 h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:50px;">A showcase of my works</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-472059e7677b58502 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:normal;margin-bottom:15px;">Phasellus dui enim, posuere ac porta non, convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#f8f8f9" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1493808945767 vc_row-has-fill vc_row-no-padding">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<style type="text/css" data-type="the7_shortcodes-inline-css">.carousel-shortcode.carousel-shortcode-id-1 .owl-nav a {
+ width: 80px;
+ height: 50px;
+ border-width: 0px;
+ border-style: solid;
+ border-radius: 0px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-prev {
+ top: 50%;
+ transform: translateY(calc(-50% + 0px));
+ left: -35px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-prev i {
+ padding: 0px 0px 0px 0px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-next {
+ top: 50%;
+ transform: translateY(calc(-50% + 0px));
+ right: -35px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-next i {
+ padding: 0px 0px 0px 0px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav i {
+ font-size: 36px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a:not(:hover) i,
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a:not(:hover) i:before {
+ color: #ffffff;
+ -webkit-text-fill-color: #ffffff;
+ background: none;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a:hover i,
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-nav a:hover i:before {
+ color: rgba(255,255,255,0.65);
+ -webkit-text-fill-color: rgba(255,255,255,0.65);
+ background: none;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-dots {
+ top: calc(100% + 20px);
+ left: 50%;
+ transform: translateX(calc(-50% + 0px));
+ }
+ .carousel-shortcode.carousel-shortcode-id-1 .owl-dot {
+ width: 10px;
+ height: 10px;
+ margin: 0 8px;
+ }
+ .bullets-ubax.carousel-shortcode.carousel-shortcode-id-1 .owl-dot.active span {
+ border-color: ;
+ }
+ @media screen and (max-width: 768px) {
+ .carousel-shortcode.carousel-shortcode-id-1.hide-arrows .owl-nav a {
+ display: none;
+ }
+ }
+ @media screen and (max-width: 768px) {
+ .carousel-shortcode.carousel-shortcode-id-1.reposition-arrows .owl-nav .owl-prev {
+ top: 50%;
+ transform: translateY(calc(-50% + 0px));
+ left: 10px;
+ }
+ .carousel-shortcode.carousel-shortcode-id-1.reposition-arrows .owl-nav .owl-next {
+ top: 50%;
+ transform: translateY(calc(-50% + 0px));
+ right: 10px;
+ }
+ }
+</style>
+<div class="owl-carousel carousel-shortcode carousel-shortcode-id-1 bullets-small-dot-stroke arrows-bg-on arrows-hover-bg-on " data-scroll-mode="1" data-col-num="5" data-laptop-col="4" data-h-tablet-columns-num="3" data-v-tablet-columns-num="2" data-phone-columns-num="1" data-auto-height="true" data-col-gap="20" data-speed="600" data-autoplay="false" data-autoplay_speed="6000" data-arrows="true" data-bullet="false" data-next-icon="icon-ar-015-r" data-prev-icon="icon-ar-015-l">
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525515807">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1482935292362" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-05-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-05-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-05/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806653114 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-1076" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b59f8a" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-1076' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >Water Sports Blog</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525494667">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493805424521" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-08-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-08-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-08/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806659108 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-2937" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b5b4b4" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-2937' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >Casual Store</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525617545">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1482935311653" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-02-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-02-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-02/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806665685 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-5550" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b5ce15" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-5550' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >Bakery Website</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525494667">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1482935209997" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-01-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-01-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-01/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806671573 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-3517" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b5e38e" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-3517' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >Ave Online Store</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525547257">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1482935304250" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-04-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-04-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-04/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806677241 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-7292" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b5f503" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-7292' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >News Portal</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1483525507436">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1482935274018" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2); -webkit-box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20800%201100&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-03-800x1100.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/por-03-800x1100.jpg 800w" width="800" height="1100" data-dt-location="http://the7.io/personal-creative/homepage/por-03/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493806684042 ubtn-ctn-center color-title">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom color-title" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener">
+<button type="button" id="ubtn-9759" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg none ubtn-center tooltip-59e7677b60805" data-hover="#3a71ec" data-border-color="" data-bg="" data-hover-bg="" data-border-hover="" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-9759' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:20px;"}' style="font-weight:bold;width:px;min-height:20px;padding:5px 15px;border:none;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:"></span>
+<span class="ubtn-data ubtn-text " >Snowboarding Portal</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row-full-width vc_clearfix">
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#f8f8f9" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div id="expertise" class="vc_row wpb_row vc_row-fluid vc_custom_1495554266065 vc_row-has-fill">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-803459e7677b60e09" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-803459e7677b60e09 uvc-381 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-803459e7677b60e09 h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(138,138,138,0.4);margin-bottom:-45px;">*EXPERTISE</h2>
+</div>
+</div>
+<div id="ultimate-heading-615559e7677b60e91" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-615559e7677b60e91 uvc-7118 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-615559e7677b60e91 h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;color:#ffffff;margin-bottom:50px;">What I'm good at</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-615559e7677b60e91 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:normal;color:#9aa0a7;margin-bottom:70px;">Ipsum fosuere ac porta non, convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae dui enim, posuere ac porta non, convallis non eros tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar, vestibulum ex.</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-flex">
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279490968">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723314812 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-1808" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-tablet">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-1808 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Mobile apps</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-1808 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Ipsum fosuere ac porta non ipsum nulla amet dolor convallis non lorem ipsum nulla amet eros.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279496028">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723325965 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-1576" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-comments-o">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-1576 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Communication</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-1576 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Praesent sit amet felis venenatis sit amet felis venenatis &#8211; from porttitor urna.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279506972">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723385710 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-7505" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-copy files-o">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-7505 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Copywriting</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-7505 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Nam vehicula &#8211; blandit velit a fermentum sit amet felis venenatis, porttitor for elit.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279515020">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723304520 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-9393" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-line-chart">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-9393 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">SEO</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-9393 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Lorem a sit amet felis venenatis, porttitor vehicula blandit velit a fermentum.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279520453">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723265938 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-6879" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-desktop">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-6879 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Web design</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-6879 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Mauris massa ultricies vel venenatis incursus tortor sit amet felis venenatis porttitor.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-4">
+<div class="vc_column-inner vc_custom_1478279525924">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493723257572 accent-icon-color accent-border-color style_1">
+<div id="Info-box-wrap-3046" class="aio-icon-box top-icon" style="" >
+<div class="aio-icon-top">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon advanced " style="border-style:solid;border-color:;border-width:4px;width:100px;height:100px;line-height:100px;border-radius:500px;font-size:48px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-briefcase">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-3046 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Complex sollutions</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-3046 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":"desktop:26px;"}' style="color:#9aa0a7;">Cursus vitae tortor &#8211; from glavrida lorem fermentum! Ipsum nulla glavrida amet &#8211; sit amet felis venenatis porttitor.</div><!-- description -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_bg_img" data-ultimate-bg="url(http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif)" data-image-id="id^57|url^http://the7.io/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif|caption^null|alt^null|title^bg-creative-pattern|description^null" data-ultimate-bg-style="vcpb-vz-jquery" data-bg-img-repeat="repeat" data-bg-img-size="initial" data-bg-img-position="" data-parallx_sense="50" data-bg-override="ex-full" data-bg_img_attach="scroll" data-upb-overlay-color="rgba(24,27,34,0.97)" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="true" data-overlay-color="rgba(24,27,34,0.97)" data-overlay-pattern="" data-overlay-pattern-opacity="0.8" data-overlay-pattern-size="" data-overlay-pattern-attachment="scroll" >
+</div>
+<div id="clients" class="vc_row wpb_row vc_row-fluid vc_custom_1493715216692">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-563659e7677b62279" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-563659e7677b62279 uvc-7925 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-563659e7677b62279 h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(59,63,74,0.12);margin-bottom:-45px;">*CLIENTS</h2>
+</div>
+</div>
+<div id="ultimate-heading-732059e7677b622fc" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-732059e7677b622fc uvc-7064 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-732059e7677b622fc h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:50px;">I work with cool companies</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-732059e7677b622fc .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:normal;margin-bottom:50px;">Posuere ac porta non, convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1493807723955 vc_row-o-equal-height vc_row-flex">
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807557937">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807192983" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-12-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-12-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-12/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-993559e7677b63777" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-993559e7677b63777 uvc-3513 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-993559e7677b63777 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Wall Paint Shop</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-993559e7677b63777 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Nam vehicula blandit velit. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807588247">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807216638" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-22-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-22-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-22/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-557759e7677b651f8" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-557759e7677b651f8 uvc-692 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-557759e7677b651f8 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Ron Jones</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-557759e7677b651f8 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Praesent sit amet venenatis, porttitor urna pulvinar. Nam vehicula blandit velit nulla!</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807596419">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807212892" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-23-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-23-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-23/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-945659e7677b664aa" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-945659e7677b664aa uvc-8318 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-945659e7677b664aa h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">David Smith</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-945659e7677b664aa .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Nulla from dolor &#8211; ehicula blandit velit. Praesent sit amet felis.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807601265">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807173272" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-16-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-16-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-16/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-524059e7677b67775" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-524059e7677b67775 uvc-2250 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-524059e7677b67775 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Climb the Mountain</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-524059e7677b67775 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Climb dolor from nulla from dolor &#8211; ehicula blandit velit. Praesent sit amet felis.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807606046">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807304406" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-20-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-20-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-20/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-471459e7677b68a24" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-471459e7677b68a24 uvc-9961 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-471459e7677b68a24 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Bullseye</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-471459e7677b68a24 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Praesent sit amet felis venenatis, porttitor urna pulvinar</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807612044">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807294781" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-19-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-19-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-19/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-998859e7677b69c9f" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-998859e7677b69c9f uvc-4800 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-998859e7677b69c9f h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Lifeguard</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-998859e7677b69c9f .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Lorem nulla dolor from nulla from dolor &#8211; ehicula blandit velit. Praesent sit amet felis.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807616654">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807419932" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-15-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-15-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-15/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-211459e7677b6af21" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-211459e7677b6af21 uvc-5044 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-211459e7677b6af21 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Sweety</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-211459e7677b6af21 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Ehicula blandit velit. Praesent sit amet felis dolor glavrida unicos.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1493807622563">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807456272" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap" style="">
+<a href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590" class="layzr-bg rollover" style="" target="_blank">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20400%20300&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-09-400x300.png" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/4-logo-09-400x300.png 400w" width="400" height="300" data-dt-location="http://the7.io/personal-creative/homepage/4-logo-09/" alt="" />
+</a>
+</div>
+</div>
+</div>
+<div id="ultimate-heading-759759e7677b6c345" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-759759e7677b6c345 uvc-9106 accent-border-color" data-hspacer="line_only" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer line_only" style="margin-bottom:20px;height:4px;">
+<span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#ccc;width:30px;"></span>
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-759759e7677b6c345 h2' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' >
+<h2 style="font-weight:bold;margin-bottom:10px;">Avantgarde</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-759759e7677b6c345 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":"desktop:24px;"}' style="font-weight:normal;">Glavrida from nulla from dolor &#8211; ehicula blandit velit. Praesent sit amet felis.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493809034265 ubtn-ctn-left anchor-link">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-left ubtn-custom anchor-link" href="#!/contact">
+<button type="button" id="ubtn-5299" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-fade-bg none ubtn-left tooltip-59e7677b6c442" data-hover="#ffffff" data-border-color="#3a71ec" data-bg="" data-hover-bg="#3a71ec" data-border-hover="#3a71ec" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-5299' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":""}' style="font-weight:bold;width:px;min-height:46px;padding:5px 15px;border-radius:0px;border-width:3px;border-color:#3a71ec;border-style:solid;color: #3a71ec;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:#3a71ec"></span>
+<span class="ubtn-data ubtn-text " >BECOME MY CLIENT</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#f8f8f9" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div id="testimonials" class="vc_row wpb_row vc_row-fluid vc_custom_1493724640531">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-563159e7677b6cbab" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-563159e7677b6cbab uvc-9488 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-563159e7677b6cbab h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(59,63,74,0.12);margin-bottom:-45px;">*TESTIMONIALS</h2>
+</div>
+</div>
+<div id="ultimate-heading-93259e7677b6cc2f" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-93259e7677b6cc2f uvc-2749 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-93259e7677b6cc2f h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:50px;">Don't take my word for it</h2>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-flex">
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1493724463942">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807836818" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap layzr-bg" style="border-radius:1000px;">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20120%20120&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-002-120x120.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-002-120x120.jpg 120w, http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-002-240x240.jpg 240w" width="120" height="120" data-dt-location="http://the7.io/personal-creative/homepage/testim-002/" style="border-radius:1000px;" alt="" />
+</div>
+</div>
+</div>
+<div id="ultimate-heading-38659e7677b6df36" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-38659e7677b6df36 uvc-1572 accent-subtitle-color" data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-38659e7677b6df36 h2' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' >
+<h2 style="font-weight:bold;margin-bottom:5px;">Jason Brown</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-38659e7677b6df36 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;margin-bottom:25px;">Art Director &#8211; Seven Media</div>
+</div>
+<div id="ultimate-heading-997759e7677b6dfc9" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-997759e7677b6dfc9 uvc-9713 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-997759e7677b6dfc9 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;mobile_landscape:15px;","line-height":"desktop:31px;mobile_landscape:28px;"}' style="font-style:italic;font-weight:normal;">Auris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1493809185719">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807842035" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap layzr-bg" style="border-radius:1000px;">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20120%20120&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-000-120x120.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-000-120x120.jpg 120w, http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-000-240x240.jpg 240w" width="120" height="120" data-dt-location="http://the7.io/personal-creative/homepage/testim-000/" style="border-radius:1000px;" alt="" />
+</div>
+</div>
+</div>
+<div id="ultimate-heading-810459e7677b6f0e8" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-810459e7677b6f0e8 uvc-2251 accent-subtitle-color" data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-810459e7677b6f0e8 h2' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' >
+<h2 style="font-weight:bold;margin-bottom:5px;">Tiffany Bright</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-810459e7677b6f0e8 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;margin-bottom:25px;">Executive Director &#8211; Seven Creative</div>
+</div>
+<div id="ultimate-heading-534959e7677b6f169" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-534959e7677b6f169 uvc-6030 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-534959e7677b6f169 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;mobile_landscape:15px;","line-height":"desktop:31px;mobile_landscape:28px;"}' style="font-style:italic;font-weight:normal;">Lorem convallis non eros &#8211; auris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1493809180673">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807853247" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap layzr-bg" style="border-radius:1000px;">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20120%20120&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-003-120x120.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-003-120x120.jpg 120w, http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-003-240x240.jpg 240w" width="120" height="120" data-dt-location="http://the7.io/personal-creative/homepage/testim-003/" style="border-radius:1000px;" alt="" />
+</div>
+</div>
+</div>
+<div id="ultimate-heading-957159e7677b70209" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-957159e7677b70209 uvc-2414 accent-subtitle-color" data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-957159e7677b70209 h2' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' >
+<h2 style="font-weight:bold;margin-bottom:5px;">Miranda Blackwood</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-957159e7677b70209 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;margin-bottom:25px;">Marketing Manager &#8211; Seven Digital</div>
+</div>
+<div id="ultimate-heading-596559e7677b7028c" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-596559e7677b7028c uvc-3085 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-596559e7677b7028c .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;mobile_landscape:15px;","line-height":"desktop:31px;mobile_landscape:28px;"}' style="font-style:italic;font-weight:normal;">Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar, vestibulum ex &#8211; auris massa purus, ultricies vel venenatis in, cursus vitae tortont sit amet felis venenatis!</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1493809193918">
+<div class="wpb_wrapper">
+<div class="shortcode-single-image-wrap alignnone vc_custom_1493807847464" >
+<div class="shortcode-single-image">
+<div class="fancy-media-wrap layzr-bg" style="border-radius:1000px;">
+<img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20120%20120&#39;%2F%3E" data-src="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-004-120x120.jpg" data-srcset="http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-004-120x120.jpg 120w, http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/testim-004-240x240.jpg 240w" width="120" height="120" data-dt-location="http://the7.io/personal-creative/homepage/testim-004/" style="border-radius:1000px;" alt="" />
+</div>
+</div>
+</div>
+<div id="ultimate-heading-799259e7677b7140d" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-799259e7677b7140d uvc-6658 accent-subtitle-color" data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-799259e7677b7140d h2' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' >
+<h2 style="font-weight:bold;margin-bottom:5px;">Richard Redfox</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-799259e7677b7140d .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;margin-bottom:25px;">Marketing Manager &#8211; Seven Digital</div>
+</div>
+<div id="ultimate-heading-254159e7677b71492" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-254159e7677b71492 uvc-6311 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-254159e7677b71492 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;mobile_landscape:15px;","line-height":"desktop:31px;mobile_landscape:28px;"}' style="font-style:italic;font-weight:normal;">Lorem convallis non eros &#8211; auris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div id="process" class="vc_row wpb_row vc_row-fluid vc_custom_1495554276908 vc_row-has-fill">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-189859e7677b71a21" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-189859e7677b71a21 uvc-4791 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-189859e7677b71a21 h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(138,138,138,0.4);margin-bottom:-45px;">*PROCESS</h2>
+</div>
+</div>
+<div id="ultimate-heading-102659e7677b71aa7" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-102659e7677b71aa7 uvc-1860 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-102659e7677b71aa7 h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;color:#ffffff;margin-bottom:50px;">That’s how I work</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-102659e7677b71aa7 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:31px;"}' style="font-weight:normal;color:#9aa0a7;margin-bottom:60px;">Lorem ipsum nulla amos – vehicula blandit blandit et. Praesent sit amet enenatis, porttitor urna pulvinar, vestibulum ex. Convallis non eros. Mauris massa purus, ultricies vel venenatis in, cursus vitae tortor. Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1493717442720">
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493717077317 accent-icon-color style_1">
+<div id="Info-box-wrap-5302" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-5302 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Defining the problem</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-5302 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493717071033 accent-icon-color style_1">
+<div id="Info-box-wrap-6243" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number2">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-6243 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Conduct the research</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-6243 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Lorem ipsum dolor amet bulla &#8211; ipsum am vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493717064526 accent-icon-color style_1">
+<div id="Info-box-wrap-4577" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number3">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-4577 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Basic skatches</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-4577 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Cursus vitae tortor &#8211; from glavrida lorem fermentum! Ipsum nulla glavrida amet &#8211; sit amet felis venenatis porttitor lorem ipsum.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493717115224 accent-icon-color style_1">
+<div id="Info-box-wrap-9842" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number4">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-9842 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Design &amp; development</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-9842 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Lorem ipsum nulla amos &#8211; vehicula blandit blandit et. Praesent sit amet enenatis, porttitor urna pulvinar, vestibulum ex.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493717143050 accent-icon-color style_1">
+<div id="Info-box-wrap-4081" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number5">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-4081 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Final discussion</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-4081 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis sum amet from.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493717043669 accent-icon-color style_1">
+<div id="Info-box-wrap-3774" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:64px;display:inline-block;">
+ <i class="icomoon-numbers-32x32-number6">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-3774 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}' style="font-weight:bold;color:#ffffff;">Product launch</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-3774 .aio-icon-description' data-responsive-json-new='{"font-size":"","line-height":""}' style="color:#9aa0a7;">Dolor ipsum amet &#8211; nam vehicula blandit velit, a fermentum elit blandit et. Praesent sit amet felis venenatis, porttitor urna pulvinar, vestibulum ex.</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+</div>
+<div class=" vc_custom_1493809067467 ubtn-ctn-left anchor-link">
+<a class="ubtn-link ult-adjust-bottom-margin ubtn-left ubtn-custom anchor-link" href="#!/contact">
+<button type="button" id="ubtn-5142" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-fade-bg none ubtn-left tooltip-59e7677b724b5" data-hover="#ffffff" data-border-color="#3a71ec" data-bg="" data-hover-bg="#3a71ec" data-border-hover="#3a71ec" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target='#ubtn-5142' data-responsive-json-new='{"font-size":"desktop:14px;","line-height":""}' style="font-weight:bold;width:px;min-height:46px;padding:5px 15px;border-radius:0px;border-width:3px;border-color:#3a71ec;border-style:solid;color: #3a71ec;">
+<span class="ubtn-data ubtn-icon">
+<i class="none" style="font-size:24px;color:;">
+</i></span>
+<span class="ubtn-hover" style="background-color:#3a71ec"></span>
+<span class="ubtn-data ubtn-text " >LET&#039;S DISCUSS YOUR PROJECT</span>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_bg_img" data-ultimate-bg="url(http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif)" data-image-id="id^57|url^http://the7.io/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif|caption^null|alt^null|title^bg-creative-pattern|description^null" data-ultimate-bg-style="vcpb-vz-jquery" data-bg-img-repeat="repeat" data-bg-img-size="initial" data-bg-img-position="" data-parallx_sense="50" data-bg-override="ex-full" data-bg_img_attach="scroll" data-upb-overlay-color="rgba(24,27,34,0.97)" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="true" data-overlay-color="rgba(24,27,34,0.97)" data-overlay-pattern="" data-overlay-pattern-opacity="0.8" data-overlay-pattern-size="" data-overlay-pattern-attachment="scroll" >
+</div>
+<div id="contact" class="vc_row wpb_row vc_row-fluid vc_custom_1493718013755">
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div id="ultimate-heading-905559e7677b72a44" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-905559e7677b72a44 uvc-2570 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-905559e7677b72a44 h2' data-responsive-json-new='{"font-size":"desktop:90px;mobile_landscape:60px;","line-height":"desktop:100px;mobile_landscape:70px;"}' >
+<h2 style="font-weight:bold;color:rgba(59,63,74,0.12);margin-bottom:-45px;">*CONTACT</h2>
+</div>
+</div>
+<div id="ultimate-heading-553559e7677b72ac5" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-553559e7677b72ac5 uvc-1805 " data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-553559e7677b72ac5 h2' data-responsive-json-new='{"font-size":"desktop:38px;mobile_landscape:30px;","line-height":"desktop:48px;mobile_landscape:40px;"}' >
+<h2 style="font-weight:bold;margin-bottom:70px;">Let's start a project together!</h2>
+</div>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid">
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1482943658375">
+<div class="wpb_wrapper">
+<div class="aio-icon-component vc_custom_1493719057394 accent-icon-color style_1">
+<div id="Info-box-wrap-3661" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-envelope">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-3661 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="font-weight:bold;">Mail</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-3661 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="">hello@dream-theme.com</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493719090010 accent-icon-color style_1">
+<div id="Info-box-wrap-7396" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-phone">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-7396 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="font-weight:bold;">Call me</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-7396 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="">+ 009 876 54 321</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493719150643 accent-icon-color style_1">
+<div id="Info-box-wrap-2605" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-map">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-2605 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="font-weight:bold;">My location</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-2605 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="">Los Angeles, California, USA</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+<div class="aio-icon-component vc_custom_1493719528442 accent-icon-color style_1">
+<div id="Info-box-wrap-3403" class="aio-icon-box left-icon" style="" >
+<div class="aio-icon-left">
+<div class="ult-just-icon-wrapper ">
+<div class="align-icon" style="text-align:center;">
+<div class="aio-icon none " style="font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-clock-o">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="aio-ibd-block">
+<div class="aio-icon-header" >
+<h3 class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-3403 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="font-weight:bold;">Business time</h3>
+</div><!-- header -->
+<div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-3403 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:18px;","line-height":"desktop:20px;"}' style="">Mon &#8211; Fri 10.00 &#8211; 19.00</div><!-- description -->
+</div><!-- aio-ibd-block -->
+</div><!-- aio-icon-box -->
+</div><!-- aio-icon-component -->
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-6">
+<div class="vc_column-inner vc_custom_1493718018569">
+<div class="wpb_wrapper">
+<form class="contact-form dt-form" action="/" method="post">
+<input type="hidden" name="widget_id" value="presscore-contact-form-widget--1" />
+<input type="hidden" name="send_message" value="" />
+<div class="form-fields">
+<span class="form-name">
+<label class="assistive-text">Name</label>
+<input type="text" placeholder="Name" name="name" value="" aria-required="false"></span>
+<span class="form-mail">
+<label class="assistive-text">E-mail</label>
+<input type="text" placeholder="E-mail" name="email" value="" aria-required="false"></span>
+<span class="form-telephone">
+<label class="assistive-text">Telephone</label>
+<input type="text" placeholder="Telephone" name="telephone" value="" aria-required="false"></span>
+</div>
+<span class="form-message">
+<label class="assistive-text">Message *</label>
+<textarea class="validate[required]" placeholder="Message *" name="message" rows="5" aria-required="true">
+</textarea></span>
+<p>
+<a href="#" class="dt-btn dt-btn-m dt-btn-submit" rel="nofollow">
+<span>SEND MESSAGE</span>
+</a>
+<input class="assistive-text" type="submit" value="submit">
+</p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_color" data-bg-override="ex-full" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size="" >
+</div>
+<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1495554356661 vc_row-no-padding">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+<div class="vc_column-inner ">
+<div class="wpb_wrapper">
+<div class="vc_row wpb_row vc_inner vc_row-fluid">
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1476289576226">
+<div class="wpb_wrapper">
+<div class="ult-just-icon-wrapper vc_custom_1493721097003">
+<div class="align-icon" style="text-align:center;">
+<a class="aio-tooltip 59e7677b73965" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener" data-toggle="tooltip" data-placement="">
+<div class="aio-icon advanced " style="color:#ffffff;border-style:solid;border-color:#ffffff;border-width:4px;width:70px;height:70px;line-height:70px;border-radius:500px;font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-pinterest-p">
+</i>
+</div>
+</a>
+</div>
+</div>
+<div id="ultimate-heading-521259e7677b739fc" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-521259e7677b739fc uvc-4035 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-521259e7677b739fc h2' data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:20px;"}' >
+<h2 style="font-weight:bold;color:rgba(255,255,255,0.5);margin-bottom:0px;">PINTEREST</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-521259e7677b739fc .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;color:#ffffff;margin-bottom:0px;">@Dream-Theme</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1482916661181">
+<div class="wpb_wrapper">
+<div class="ult-just-icon-wrapper vc_custom_1493721104513">
+<div class="align-icon" style="text-align:center;">
+<a class="aio-tooltip 59e7677b73bca" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener" data-toggle="tooltip" data-placement="">
+<div class="aio-icon advanced " style="color:#ffffff;border-style:solid;border-color:#ffffff;border-width:4px;width:70px;height:70px;line-height:70px;border-radius:500px;font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-twitter">
+</i>
+</div>
+</a>
+</div>
+</div>
+<div id="ultimate-heading-802059e7677b73c51" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-802059e7677b73c51 uvc-1242 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-802059e7677b73c51 h2' data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:20px;"}' >
+<h2 style="font-weight:bold;color:rgba(255,255,255,0.5);margin-bottom:0px;">TWITTER</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-802059e7677b73c51 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;color:#ffffff;margin-bottom:0px;">@premium_theme</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1482916667587">
+<div class="wpb_wrapper">
+<div class="ult-just-icon-wrapper vc_custom_1493721110933">
+<div class="align-icon" style="text-align:center;">
+<a class="aio-tooltip 59e7677b73dcd" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener" data-toggle="tooltip" data-placement="">
+<div class="aio-icon advanced " style="color:#ffffff;border-style:solid;border-color:#ffffff;border-width:4px;width:70px;height:70px;line-height:70px;border-radius:500px;font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-facebook facebook-f">
+</i>
+</div>
+</a>
+</div>
+</div>
+<div id="ultimate-heading-360759e7677b73e50" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-360759e7677b73e50 uvc-435 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-360759e7677b73e50 h2' data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:20px;"}' >
+<h2 style="font-weight:bold;color:rgba(255,255,255,0.5);margin-bottom:0px;">FACEBOOK</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-360759e7677b73e50 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;color:#ffffff;margin-bottom:0px;">@WordPress.Premium.Theme</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_column vc_column_container vc_col-sm-3">
+<div class="vc_column-inner vc_custom_1482916687440">
+<div class="wpb_wrapper">
+<div class="ult-just-icon-wrapper vc_custom_1493721116197">
+<div class="align-icon" style="text-align:center;">
+<a class="aio-tooltip 59e7677b73fc9" href="https://themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/5556590"target="_blank"rel="noopener" data-toggle="tooltip" data-placement="">
+<div class="aio-icon advanced " style="color:#ffffff;border-style:solid;border-color:#ffffff;border-width:4px;width:70px;height:70px;line-height:70px;border-radius:500px;font-size:28px;display:inline-block;">
+ <i class="icomoon-font-awesome-14x14-behance">
+</i>
+</div>
+</a>
+</div>
+</div>
+<div id="ultimate-heading-720859e7677b7404c" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-720859e7677b7404c uvc-6692 " data-hspacer="no_spacer" data-halign="center" style="text-align:center">
+<div class="uvc-heading-spacer no_spacer" style="top">
+</div>
+<div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-720859e7677b7404c h2' data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:20px;"}' >
+<h2 style="font-weight:bold;color:rgba(255,255,255,0.5);margin-bottom:0px;">BEHANCE</h2>
+</div>
+<div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-720859e7677b7404c .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:16px;","line-height":"desktop:26px;"}' style="font-weight:bold;color:#ffffff;margin-bottom:0px;">@YourProfile</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_row-full-width vc_clearfix">
+</div>
+<!-- Row Backgrounds -->
+<div class="upb_bg_img" data-ultimate-bg="url(http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif)" data-image-id="id^57|url^http://the7.io/personal-creative/wp-content/uploads/sites/37/2016/12/bg-creative-pattern.gif|caption^null|alt^null|title^bg-creative-pattern|description^null" data-ultimate-bg-style="vcpb-vz-jquery" data-bg-img-repeat="repeat" data-bg-img-size="initial" data-bg-img-position="" data-parallx_sense="50" data-bg-override="ex-full" data-bg_img_attach="fixed" data-upb-overlay-color="rgba(58,113,236,0.97)" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.3" data-is_old_vc="" data-theme-support="" data-overlay="true" data-overlay-color="rgba(58,113,236,0.97)" data-overlay-pattern="" data-overlay-pattern-opacity="0.8" data-overlay-pattern-size="" data-overlay-pattern-attachment="scroll" >
+</div>
+
+
+
+ </div>
+<!-- #content -->
+
+
+ </div>
+<!-- .wf-container -->
+ </div>
+<!-- .wf-wrap -->
+ </div>
+<!-- #main -->
+
+<a href="#" class="scroll-top">
+<span class="screen-reader-text">Go to Top</span>
+</a>
+
+</div>
+<!-- #page -->
+<script type="text/javascript">
+ function revslider_showDoubleJqueryError(sliderID) {
+ var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+ errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+ errorMessage += "<br>
+<br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:<strong>
+<b>Put JS Includes To Body</b>
+</strong> option to true.";
+ errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+ errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+ jQuery(sliderID).show().html(errorMessage);
+ }
+ </script>
+ <script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/main.min.js?ver=5.6.0.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.6.0.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/themes/dt-the7/js/post-type.js?ver=5.6.0.1'>
+</script>
+<script type='text/javascript'>
+ /*<![CDATA[ */
+ var dtDemostand = {"cookiePath":"\/","skinURI":{"key":"dt_demo_skin"},"transport":"get","skin":"skin11r","layout":"wide","header":"left","frontPageUrl":"http:\/\/the7.io\/personal-creative\/"};
+ /* ]]> */
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/dt-demostand/assets/public-min.js?ver=2.3.3'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-includes/js/wp-embed.min.js?ver=4.8.2'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/Ultimate_VC_Addons/modules/../assets/min-js/vhparallax.min.js?ver=4.8.2'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/atoms/plugins/validator/jquery.validationEngine.js?ver=2.6.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/atoms/plugins/validator/languages/jquery.validationEngine-en.js?ver=2.6.1'>
+</script>
+<script type='text/javascript' src='http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/dt-contact-form.js?ver=4.8.2'>
+</script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg">
+</div>
+<div class="pswp__scroll-wrap">
+
+<div class="pswp__container">
+<div class="pswp__item">
+</div>
+<div class="pswp__item">
+</div>
+<div class="pswp__item">
+</div>
+</div>
+
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter">
+</div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)">
+</button>
+<button class="pswp__button pswp__button--share" title="Share">
+</button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen">
+</button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out">
+</button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip">
+</div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center">
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
