@@ -1,0 +1,19 @@
+This zip file contains optimized resources for https://difixon.github.io/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/animate.css: https://difixon.github.io/css/animate.css
+css/styles.css: https://difixon.github.io/css/styles.css
+css/settings.css: http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6
+css/public.css: http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/plugins/dt-demostand/assets/public.css?ver=2.3.3
+css/style.css: http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/style.css?ver=5.6.0.1
+js/post-type.js: http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/themes/dt-the7/js/post-type.js?ver=5.6.0.1
+js/jquery.validationEngine.js: http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/atoms/plugins/validator/jquery.validationEngine.js?ver=2.6.1
+js/jquery.validationEngine-en.js: http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/atoms/plugins/validator/languages/jquery.validationEngine-en.js?ver=2.6.1
+js/dt-contact-form.js: http://the7io.dreamthemecom.netdna-cdn.com/main/wp-content/themes/dt-the7/js/dt-contact-form.js?ver=4.8.2
+image/l.png: http://the7io.dreamthemecom.netdna-cdn.com/personal-creative/wp-content/uploads/sites/37/2017/05/l.png
+image/g.png: https://the7.io/personal-creative/wp-content/uploads/sites/37/2017/05/g.png
